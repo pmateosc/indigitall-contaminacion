@@ -6,7 +6,7 @@ Lectura y tratamiento de los datos: esto se ha realizado en el notebook [01-prue
 
 Como resultado de este tratamiento se ha dejado en [un solo archivo csv](madrid_contaminacion_2018.csv) todas las mediciones tomadas en la comunidad de madrid en el año 2018 y se ha elegido una jerarquía de los datos H01...H24 en una sola columna y ordenados por estación, mes, día y hora. Las columnas restantes (provincia, municipio y punto de muestreo) se han eliminado ya que no aportan información adicional a los datos.
 
-De esta manera se pueden filtrar y analizar facilmente todas las mediciones tomadas depediendo de la necesidad, como por ejemplo: media diaria de una estación en un mes concreto, en un día concreto, media de madrid en un mes o día, hacer una media por cada hora para ver a qué horas hay un pico de conaminación, etc. Se pueden ver algunos ejemplos de estos análisis en el notebook ()
+De esta manera se pueden filtrar y analizar facilmente todas las mediciones tomadas depediendo de la necesidad, como por ejemplo: media diaria de una estación en un mes concreto, en un día concreto, media de madrid en un mes o día, hacer una media por cada hora para ver a qué horas hay un pico de conaminación, etc. 
 
 ## Objetivo 2
 Para el objetivo 2 se propone una arquitectura basada en la nube utilizando recursos sin servidor de AWS ya que simplifica el mantenimiento y la escalabilidad de los mismos. 
